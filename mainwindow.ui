@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="login_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1000</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>508</x>
+       <y>271</y>
+       <width>265</width>
+       <height>197</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 183);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Plain</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_login">
+     <property name="geometry">
+      <rect>
+       <x>516</x>
+       <y>320</y>
+       <width>251</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Логин</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_password">
+     <property name="geometry">
+      <rect>
+       <x>516</x>
+       <y>362</y>
+       <width>251</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Пароль</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qpb_login">
+     <property name="geometry">
+      <rect>
+       <x>598</x>
+       <y>404</y>
+       <width>88</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Войти</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>582</x>
+       <y>280</y>
+       <width>119</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Авторизация</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qpb_toregister">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>434</y>
+       <width>253</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Нет аккаунта? Зарегистрироваться</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1280</width>
+       <height>720</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>:/rsc/1280-x-720-hd-wallpapers-215964-1771052-2475934.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>label_17</zorder>
+    <zorder>label</zorder>
+    <zorder>le_login</zorder>
+    <zorder>le_password</zorder>
+    <zorder>qpb_login</zorder>
+    <zorder>label_2</zorder>
+    <zorder>qpb_toregister</zorder>
+   </widget>
+   <widget class="QFrame" name="register_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1000</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>508</x>
+       <y>190</y>
+       <width>265</width>
+       <height>415</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255, 255, 255, 183);</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>580</x>
+       <y>192</y>
+       <width>117</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Регистрация</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_name">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>224</y>
+       <width>253</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Имя</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_surname">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>264</y>
+       <width>253</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Фамилия</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_patronymic">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>304</y>
+       <width>253</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Отчество</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_phone">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>344</y>
+       <width>253</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Номер телефона</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_email">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>384</y>
+       <width>253</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Электронная почта</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_inn">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>424</y>
+       <width>253</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>ИНН</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qpb_register">
+     <property name="geometry">
+      <rect>
+       <x>566</x>
+       <y>544</y>
+       <width>149</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Зарегистрироваться</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qpb_tologin">
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>572</y>
+       <width>179</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Уже есть аккаунт? Войти</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_reg_password">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>464</y>
+       <width>253</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="placeholderText">
+      <string>Пароль</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_face">
+     <property name="geometry">
+      <rect>
+       <x>514</x>
+       <y>504</y>
+       <width>253</width>
+       <height>35</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1280</width>
+       <height>720</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>:/rsc/1280-x-720-hd-wallpapers-215964-1771052-2475934.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <zorder>label_18</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_4</zorder>
+    <zorder>le_name</zorder>
+    <zorder>le_surname</zorder>
+    <zorder>le_patronymic</zorder>
+    <zorder>le_phone</zorder>
+    <zorder>le_email</zorder>
+    <zorder>le_inn</zorder>
+    <zorder>qpb_register</zorder>
+    <zorder>qpb_tologin</zorder>
+    <zorder>le_reg_password</zorder>
+    <zorder>cb_face</zorder>
+   </widget>
+   <widget class="QFrame" name="main_frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Shape::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Shadow::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>2</x>
+       <y>2</y>
+       <width>159</width>
+       <height>245</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::Panel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_p_name">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>6</y>
+       <width>150</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="dragEnabled">
+      <bool>false</bool>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Имя</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_p_surname">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>36</y>
+       <width>150</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Фамилия</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_p_patronymic">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>66</y>
+       <width>150</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Отчество</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_p_phone">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>96</y>
+       <width>150</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Номер телефона</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_p_email">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>126</y>
+       <width>150</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Электронная почта</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_p_inn">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>156</y>
+       <width>150</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>ИНН</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qpb_p_change">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>186</y>
+       <width>75</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Изменить</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qpb_p_change_ok">
+     <property name="geometry">
+      <rect>
+       <x>84</x>
+       <y>186</y>
+       <width>73</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Ок</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qpb_logout">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>216</y>
+       <width>151</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Выйти</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>161</x>
+       <y>40</y>
+       <width>759</width>
+       <height>675</height>
+      </rect>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::EditTrigger::NoEditTriggers</set>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::SelectionMode::NoSelection</enum>
+     </property>
+     <property name="showGrid">
+      <bool>true</bool>
+     </property>
+     <property name="gridStyle">
+      <enum>Qt::PenStyle::SolidLine</enum>
+     </property>
+     <property name="sortingEnabled">
+      <bool>false</bool>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <row>
+      <property name="text">
+       <string>New Row</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>№</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ФИО</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Телефон</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Эл. почта</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ИНН</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Дата</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Статус</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QComboBox" name="cb_client">
+     <property name="geometry">
+      <rect>
+       <x>164</x>
+       <y>8</y>
+       <width>130</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="qpb_sort_clear">
+     <property name="geometry">
+      <rect>
+       <x>1050</x>
+       <y>8</y>
+       <width>107</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Показать все</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_sort">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>8</y>
+       <width>115</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_up">
+     <property name="geometry">
+      <rect>
+       <x>418</x>
+       <y>10</y>
+       <width>139</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>По возрастанию</string>
+     </property>
+    </widget>
+    <widget class="QRadioButton" name="rb_down">
+     <property name="geometry">
+      <rect>
+       <x>556</x>
+       <y>10</y>
+       <width>121</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>По убыванию</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="cb_sort_search">
+     <property name="geometry">
+      <rect>
+       <x>682</x>
+       <y>8</y>
+       <width>145</width>
+       <height>25</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="le_search">
+     <property name="geometry">
+      <rect>
+       <x>830</x>
+       <y>8</y>
+       <width>213</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="placeholderText">
+      <string>Поиск</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>296</x>
+       <y>4</y>
+       <width>379</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Plain</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>678</x>
+       <y>4</y>
+       <width>369</width>
+       <height>33</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Plain</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>922</x>
+       <y>40</y>
+       <width>317</width>
+       <height>675</height>
+      </rect>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Заявка</string>
+      </attribute>
+      <widget class="QLabel" name="orderDateLabel">
+       <property name="geometry">
+        <rect>
+         <x>88</x>
+         <y>6</y>
+         <width>221</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="userNameLabel">
+       <property name="geometry">
+        <rect>
+         <x>88</x>
+         <y>34</y>
+         <width>221</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="userPhoneLabel">
+       <property name="geometry">
+        <rect>
+         <x>88</x>
+         <y>62</y>
+         <width>221</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="userEmailLabel">
+       <property name="geometry">
+        <rect>
+         <x>88</x>
+         <y>90</y>
+         <width>221</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="userInnLabel">
+       <property name="geometry">
+        <rect>
+         <x>88</x>
+         <y>118</y>
+         <width>221</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="userFaceLabel">
+       <property name="geometry">
+        <rect>
+         <x>88</x>
+         <y>146</y>
+         <width>221</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="cb_orderStatus">
+       <property name="geometry">
+        <rect>
+         <x>88</x>
+         <y>174</y>
+         <width>101</width>
+         <height>25</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="pte_orderText">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>202</y>
+         <width>309</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>10</y>
+         <width>85</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Дата заявки</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>38</y>
+         <width>85</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ФИО</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>66</y>
+         <width>85</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Телефон</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>94</y>
+         <width>85</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Эл. почта</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>120</y>
+         <width>85</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>ИНН</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>150</y>
+         <width>85</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Лицо</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>178</y>
+         <width>85</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Статус</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="qpb_updateStatus">
+       <property name="geometry">
+        <rect>
+         <x>189</x>
+         <y>174</y>
+         <width>121</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Обновить статус</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="qpb_doc">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>556</y>
+         <width>309</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Прилагаемый документ</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Добавить заявку</string>
+      </attribute>
+      <widget class="QPlainTextEdit" name="plainTextEdit">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>2</y>
+         <width>309</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="placeholderText">
+        <string>Текст заявки</string>
+       </property>
+      </widget>
+      <widget class="QPushLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>354</y>
+         <width>133</width>
+         <height>183</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::Shape::StyledPanel</enum>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>138</x>
+         <y>436</y>
+         <width>171</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Прилагаемый документ</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="qpb_addOrder">
+       <property name="geometry">
+        <rect>
+         <x>2</x>
+         <y>616</y>
+         <width>88</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Добавить</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QPlainTextEdit" name="plainTextEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>6</x>
+       <y>604</y>
+       <width>151</width>
+       <height>109</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>7</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::NoFrame</enum>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="plainText">
+      <string>ИП &quot;А.В. ВАЙДА&quot;
+
+Юридическая консультация
+
+Грантовое сопровождение
+
+Бухгалтерское обслуживание
+
+v1.0</string>
+     </property>
+     <property name="overwriteMode">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <zorder>label_7</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_5</zorder>
+    <zorder>le_p_name</zorder>
+    <zorder>le_p_surname</zorder>
+    <zorder>le_p_patronymic</zorder>
+    <zorder>le_p_phone</zorder>
+    <zorder>le_p_email</zorder>
+    <zorder>le_p_inn</zorder>
+    <zorder>qpb_p_change</zorder>
+    <zorder>qpb_p_change_ok</zorder>
+    <zorder>qpb_logout</zorder>
+    <zorder>tableWidget</zorder>
+    <zorder>cb_client</zorder>
+    <zorder>qpb_sort_clear</zorder>
+    <zorder>cb_sort</zorder>
+    <zorder>rb_up</zorder>
+    <zorder>rb_down</zorder>
+    <zorder>cb_sort_search</zorder>
+    <zorder>le_search</zorder>
+    <zorder>tabWidget</zorder>
+    <zorder>plainTextEdit_2</zorder>
+   </widget>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QPushLabel</class>
+   <extends>QLabel</extends>
+   <header>qpushlabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
